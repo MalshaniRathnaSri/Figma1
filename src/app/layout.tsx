@@ -23,7 +23,7 @@ export default function RootLayout({
           <Navbar/>
         </div>
         {children}
-        <div className="lg:p-24">
+        <div className="lg:p-24 lg:py-0 py-[565px]">
           <Footer/>
         </div>
         </body>
