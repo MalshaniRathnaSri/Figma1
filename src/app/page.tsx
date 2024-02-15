@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Aboutus, Story } from ".";
+import { Aboutus, Quality, Story } from ".";
 
 export default function Home() {
   return (
@@ -9,6 +9,9 @@ export default function Home() {
       </div>
       <div>
         <Story/>
+      </div>
+      <div>
+        <Quality/>
       </div>
     </main>
   );
