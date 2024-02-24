@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Aboutus, Quality, Story } from ".";
+import { Aboutus, Quality, Story, Form } from ".";
 
 export default function Home() {
   return (
@@ -12,6 +12,9 @@ export default function Home() {
       </div>
       <div>
         <Quality/>
+      </div>
+      <div className="bg-[#BAD8DE] w-[1440px] h-[906px]">
+        <Form/>
       </div>
     </main>
   );
